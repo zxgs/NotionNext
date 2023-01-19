@@ -11,15 +11,15 @@ const BLOG = {
   APPEARANCE: 'light', // ['light', 'dark', 'auto'], // light 日间模式 ， dark夜间模式， auto根据时间和主题自动夜间模式
 
   AUTHOR: '张小馋', // 作者
-  BIO: '一个不爱吃香菜的馋🍚', // 作者简介
+  BIO: '一个不爱吃香菜的小馋🍚', // 作者简介
   LINK: 'https://github.com/zxgs', // 网站地址
-  KEYWORDS: 'Notion, 博客', // 网站关键词 英文逗号隔开
+  KEYWORDS: '张小馋, 博客', // 网站关键词 英文逗号隔开
   // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
-  CONTACT_EMAIL: 'jczxgs@gmail.com', // 邮箱
+  CONTACT_EMAIL: 'jczxgs@gmail.com', 
   CONTACT_WEIBO: '', // 你的微博个人主页
   CONTACT_TWITTER: '', // 你的twitter个人主页
-  CONTACT_GITHUB: 'https://github.com/zxgs', // 你的github个人主页
-  CONTACT_TELEGRAM: 'https://t.me/Small_Ch', // 你的telegram 地址 例如 https://t.me/tangly_1024
+  CONTACT_GITHUB: 'https://github.com/zxgs', 
+  CONTACT_TELEGRAM: 'https://t.me/SmallChan_0116', 
   CONTACT_LINKEDIN: '', // 你的linkedIn 首页
 
   // 网站默认使用PingFangSC及NotoSansSC，
@@ -68,10 +68,10 @@ const BLOG = {
   FIREWORKS_COLOR: ['255, 20, 97', '24, 255, 146', '90, 135, 255', '251, 243, 140'],
 
   // 樱花飘落特效
-  SAKURA: process.env.NEXT_PUBLIC_SAKURA || false, // 开关
+  SAKURA: process.env.NEXT_PUBLIC_SAKURA || ture, // 开关
 
   // 星空雨特效 黑夜模式才会生效
-  STARRY_SKY: process.env.NEXT_PUBLIC_STARRY_SKY || false, // 开关
+  STARRY_SKY: process.env.NEXT_PUBLIC_STARRY_SKY || ture, // 开关
 
   // 悬浮挂件
   WIDGET_PET: process.env.NEXT_PUBLIC_WIDGET_PET || true, // 是否显示宠物挂件
